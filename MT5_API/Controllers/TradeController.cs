@@ -33,5 +33,7 @@ namespace MT5_API.Controllers
         public double Volume { get; set; }
         public string Comment { get; set; }
         public bool IsBuying { get; set; }
+        public double? Tp { get; set; }
+        public double? Sl { get; set; }
     }
 }
